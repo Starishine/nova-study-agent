@@ -1,8 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { SubmitEvent, useState } from "react";
 import { useRouter } from "next/navigation";
-import { SubmitEvent } from "react";
 
 export default function HomePage() {
   const [name, setName] = useState("");
