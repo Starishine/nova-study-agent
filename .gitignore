@@ -32,5 +32,6 @@ bin/
 .env.local
 
 node_modules
-
+.env    
+.next
 .idea/
